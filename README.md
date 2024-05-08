@@ -14,7 +14,7 @@ Install my-project with npm
 --------------------------------
 
 ![webpage](https://github.com/yasinciftcii/cookieManagement/blob/main/img/webpage.png)
-&nbsp;
+&nbsp;&nbsp;&nbsp;
 ![icon](https://github.com/yasinciftcii/cookieManagement/blob/main/img/change.png)
-&nbsp;
+&nbsp;&nbsp;&nbsp;
 ![preference](https://github.com/yasinciftcii/cookieManagement/blob/main/img/preference.png)
