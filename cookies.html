@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cookies</title>
+    <link rel="stylesheet" href="cookies.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <script src="https://kit.fontawesome.com/381e75d775.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div id="cookie-consent-button">
+      <button>
+        <i class="fa-solid fa-palette"></i>
+      </button>
+      <div class="tercihler">
+        <a href="#" id="open_preferences_center" class="button-text"
+          >Tercihleri Değiştir</a
+        >
+        <a href="/team.html" class="button-text">Ekibimiz</a>
+        <a href="/about.html" class="button-text">Hakkımızda</a>
+      </div>
+    </div>
+
+    <!-- Cookie Consent by TermsFeed https://www.TermsFeed.com -->
+    <script
+      type="text/javascript"
+      src="https://www.termsfeed.com/public/cookie-consent/4.1.0/cookie-consent.js"
+      charset="UTF-8"
+    ></script>
+    <script type="text/javascript" charset="UTF-8">
+      document.addEventListener("DOMContentLoaded", function () {
+        cookieconsent.run({
+          notice_banner_type: "standalone",
+          consent_type: "express",
+          palette: "light",
+          language: "tr",
+          page_load_consent_levels: ["strictly-necessary"],
+          notice_banner_reject_button_hide: false,
+          preferences_center_close_button_hide: false,
+          page_refresh_confirmation_buttons: false,
+          website_name: "Verkosis",
+          website_privacy_policy_url: "https://www.verkosis.com/cookies.html",
+        });
+      });
+    </script>
+
+    <noscript
+      >Free cookie consent management tool by
+      <a href="https://www.termsfeed.com/">TermsFeed</a></noscript
+    >
+    <!-- End Cookie Consent by TermsFeed https://www.TermsFeed.com -->
+
+    <!-- Below is the link that users can use to open Preferences Center to change their preferences. Do not modify the ID parameter. Place it where appropriate, style it as needed. -->
+  </body>
+</html>

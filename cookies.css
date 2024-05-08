@@ -1,0 +1,63 @@
+#cookie-consent-button {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    z-index: 1000;
+  }
+  
+  #cookie-consent-button button {
+    background-color: #0033ff;
+    color: #ebf3ff;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+    position: relative;
+  }
+  
+  #cookie-consent-button button i {
+    font-size: 24px;
+  }
+  
+  #cookie-consent-button .tercihler {
+    display: none;
+    position: absolute;
+    top: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ebf3ff;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  #cookie-consent-button:hover .tercihler {
+    display: flex;
+    top: -175px;
+    left: 70px;
+  }
+  
+  #cookie-consent-button .tercihler .button-text {
+    margin: 5px 0;
+    padding: 8px 16px;
+    background-color: #0033ff;
+    color: #ebf3ff;
+    width: 110px;
+    border: none;
+    border-radius: 6px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  #cookie-consent-button .tercihler .button-text:hover {
+    background-color: #0030f1;
+  }
